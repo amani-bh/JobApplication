@@ -10,7 +10,7 @@
       "firstName":"test",
       "lastName":"test",
       "country":"test",
-      "phone":"21332708",
+      "phone":"2133279808",
       "roles":["comp"]
    }
 - http://localhost:8082/api/auth/signin: pour s'authentifier
