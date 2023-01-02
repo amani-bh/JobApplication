@@ -27,5 +27,6 @@
  - http://localhost:8082/CandidateApp/upload: Upload d'un fichier
  - http://localhost:8082/CandidateApp/download/idFichier: Téléchargement d'un fichier
  - http://localhost:8082/CandidateApp/idAnnonce/idFichier: postuler à une offre d’emploi
- ** Database: MongoDB:
- mongodb+srv://job:job@jobsdb.820z67s.mongodb.net/DB?retryWrites=true&w=majority
+ - Database: MongoDB:
+ -  mongodb+srv://job:job@jobsdb.820z67s.mongodb.net/DB?retryWrites=true&w=majority
+ 
