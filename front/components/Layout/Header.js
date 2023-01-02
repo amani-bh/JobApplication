@@ -31,15 +31,10 @@ export default function Header() {
   function logout() {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
-    router.push("/");
-    refreshPage();
+    router.push("/").then(() => router.reload());
+   
   }
-  function refreshPage() {
-    setTimeout(() => {
-      window.location.reload(false);
-    }, 200);
-    console.log("page to reload");
-  }
+ 
   return (
     <header>
       {/* Header Start */}

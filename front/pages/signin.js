@@ -27,8 +27,8 @@ export default function SignIn() {
       const json = await res.json()
       localStorage.setItem("token", json.accessToken)
       fetchProfile()
-      router.push("/jobs")
-      refreshPage()
+      router.push("/jobs").then(() => router.reload())
+      // refreshPage()
     } else {
       alert("Bad credentials")
     }

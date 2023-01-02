@@ -76,6 +76,10 @@ useEffect(() => {
             }
           })
           if (res.ok) {
+            const job = await res.json()
+            const newList = [job, ...jobs];
+            setJobs(newList);
+
             alert("Job added success")
             Router.push("/jobs")
           }
