@@ -17,6 +17,8 @@
       "roles":["comp"]
    }
 - http://localhost:8082/api/auth/signin: pour s'authentifier
+-
+
    {
      "email": "test@gmail.com",
      "password": "test12345678"
